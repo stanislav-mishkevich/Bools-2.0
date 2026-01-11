@@ -1,0 +1,575 @@
+/* Toolbar */
+"toolbar.new" = "New";
+"toolbar.save" = "Save";
+"toolbar.quickSave" = "Quick Save";
+"toolbar.load" = "Load";
+"toolbar.undo" = "Undo";
+"toolbar.redo" = "Redo";
+"toolbar.zoomIn" = "Zoom In";
+"toolbar.zoomOut" = "Zoom Out";
+"toolbar.reset" = "Reset";
+"toolbar.examples" = "Examples";
+"toolbar.export" = "Export";
+
+/* Toolbar Help */
+"toolbar.help.new" = "Create new workspace";
+"toolbar.help.save" = "Save workspace";
+"toolbar.help.quickSave" = "Quick save to Documents";
+"toolbar.help.load" = "Open workspace";
+"toolbar.help.undo" = "Undo (⌘Z)";
+"toolbar.help.redo" = "Redo (⌘⇧Z)";
+"toolbar.help.zoomIn" = "Zoom in";
+"toolbar.help.zoomOut" = "Zoom out";
+"toolbar.help.reset" = "Reset view";
+"toolbar.help.examples" = "Load example circuits";
+"toolbar.help.export" = "Export workspace";
+"toolbar.help.hideSidebar" = "Hide sidebar";
+"toolbar.help.showSidebar" = "Show sidebar";
+"toolbar.help.hideInspector" = "Hide inspector";
+"toolbar.help.showInspector" = "Show inspector";
+
+/* Export Menu */
+"export.json" = "Export as JSON...";
+"export.image" = "Export as Image...";
+
+/* Save Messages */
+"save.saved" = "Saved: %@";
+"save.failed" = "Save failed";
+"save.quickFailed" = "Quick save failed";
+"save.cannotFindDocuments" = "Cannot find Documents";
+"save.exported" = "Exported to: %@";
+"save.exportFailed" = "Export failed";
+"save.pngDevelopment" = "PNG export: Feature in development";
+"save.pngNotAvailable" = "PNG export not available on iOS yet";
+"save.filePickerNotImplemented" = "File picker not implemented for iOS yet";
+"save.loaded" = "Loaded: %@";
+
+/* Sidebar */
+"sidebar.title" = "Logic Gates";
+"sidebar.subtitle" = "Drag gates to the canvas";
+"sidebar.search" = "Search gates...";
+"sidebar.section.io" = "Input/Output";
+"sidebar.section.basic" = "Basic Gates";
+"sidebar.section.advanced" = "Advanced Gates";
+"sidebar.section.special" = "Special Gates";
+"sidebar.section.projection" = "Projection Gates";
+"sidebar.section.constant" = "Constants";
+"sidebar.section.flipflops" = "Flip-Flops";
+"sidebar.section.multiplexers" = "Multiplexers";
+"sidebar.section.counters" = "Counters & Registers";
+"sidebar.section.adders" = "Adders";
+"sidebar.section.decoders" = "Decoders & Encoders";
+"sidebar.section.comparators" = "Comparators";
+"sidebar.section.memory" = "Memory";
+"sidebar.section.timing" = "Timing";
+"sidebar.section.bus" = "Bus Components";
+"sidebar.section.physical" = "Physical Components";
+"sidebar.section.transistors" = "Transistors";
+
+/* Gate Descriptions */
+"gate.input" = "Input";
+"gate.output" = "Output";
+"gate.clock" = "Clock";
+"gate.and" = "AND";
+"gate.or" = "OR";
+"gate.not" = "NOT";
+"gate.not_b" = "NOT B";
+"gate.xor" = "XOR";
+"gate.xnor" = "XNOR";
+"gate.nand" = "NAND";
+"gate.nor" = "NOR";
+"gate.a_and_not_b" = "A AND NOT B";
+"gate.not_a_and_b" = "NOT A AND B";
+"gate.impl_ab" = "A → B";
+"gate.impl_ba" = "B → A";
+"gate.proj_a" = "A";
+"gate.proj_b" = "B";
+"gate.const0" = "FALSE";
+"gate.const1" = "TRUE";
+"gate.button" = "Button";
+"gate.switch" = "Switch";
+"gate.led" = "LED";
+"gate.bulb" = "Light Bulb";
+"gate.relay" = "Relay";
+"gate.buzzer" = "Buzzer";
+"gate.resistor" = "Resistor";
+"gate.capacitor" = "Capacitor";
+"gate.battery" = "Battery";
+"gate.display8bit" = "8-bit Display";
+"gate.bjt_npn" = "BJT NPN";
+"gate.bjt_pnp" = "BJT PNP";
+"gate.mosfet_n" = "MOSFET N-channel";
+"gate.mosfet_p" = "MOSFET P-channel";
+
+"gate.desc.input" = "Input signal source";
+"gate.desc.output" = "Output signal display";
+"gate.desc.clock" = "Automatic pulse generator - toggles between 0 and 1 every second";
+"gate.desc.and" = "Output is TRUE when all inputs are TRUE";
+"gate.desc.or" = "Output is TRUE when at least one input is TRUE";
+"gate.desc.not" = "Inverts the input signal";
+"gate.desc.not_b" = "Inverts input B";
+"gate.desc.xor" = "Output is TRUE when inputs differ";
+"gate.desc.xnor" = "Output is TRUE when inputs are equal";
+"gate.desc.nand" = "NOT AND - opposite of AND gate";
+"gate.desc.nor" = "NOT OR - opposite of OR gate";
+"gate.desc.a_and_not_b" = "A AND NOT B - inhibition";
+"gate.desc.not_a_and_b" = "NOT A AND B - inhibition";
+"gate.desc.impl_ab" = "Implication A → B";
+"gate.desc.impl_ba" = "Implication B → A";
+"gate.desc.proj_a" = "Projection A - outputs A";
+"gate.desc.proj_b" = "Projection B - outputs B";
+"gate.desc.const0" = "Constant 0 - always FALSE";
+"gate.desc.const1" = "Constant 1 - always TRUE";
+"gate.desc.button" = "Button - closes contacts when pressed, opens when released";
+"gate.desc.switch" = "Switch - maintains ON/OFF state until next toggle";
+"gate.desc.led" = "LED - glows green when signal 1 is applied";
+"gate.desc.bulb" = "Light Bulb - glows yellow when voltage is applied";
+"gate.desc.relay" = "Relay - electromagnetic device with switching contacts (COM, NO, NC)";
+"gate.desc.buzzer" = "Buzzer - emits sound signal and shows sound waves";
+"gate.desc.resistor" = "Resistor - passive element with color bands, limits current";
+"gate.desc.capacitor" = "Capacitor - passive element with two plates, stores charge";
+"gate.desc.battery" = "Battery - power source with constant output (always outputs 1)";
+"gate.desc.display8bit" = "8-bit Display - shows decimal value (0-255) from 8 binary inputs";
+"gate.desc.bjt_npn" = "BJT NPN - bipolar transistor controlled by base current";
+"gate.desc.bjt_pnp" = "BJT PNP - bipolar transistor with inverted control logic";
+"gate.desc.mosfet_n" = "MOSFET N-channel - field-effect transistor for switching";
+"gate.desc.mosfet_p" = "MOSFET P-channel - field-effect transistor with inverted logic";
+
+/* Gate Long Descriptions */
+"gate.longDesc.input" = "Input — sets a logical value (on/off). Used as a signal source.";
+"gate.longDesc.clock" = "Clock Generator — automatically generates periodic pulses by switching between 0 and 1 every second. Perfect for creating blinking lights, repeating sounds, or any cyclic circuit. Works like a metronome for digital circuits.";
+"gate.longDesc.output" = "Output — displays the current logical signal at this pin. Usually used to display the result.";
+"gate.longDesc.and" = "Logical AND — outputs 1 only if all inputs are 1.";
+"gate.longDesc.or" = "Logical OR — outputs 1 if at least one input is 1.";
+"gate.longDesc.not" = "Inverter (NOT) — outputs the opposite value of the input.";
+"gate.longDesc.not_b" = "Inverter B (NOT B) — outputs the opposite value of input B.";
+"gate.longDesc.xor" = "Exclusive OR — outputs 1 if exactly one of the inputs is 1.";
+"gate.longDesc.xnor" = "Equivalence (XNOR) — outputs 1 if inputs are equal (both 0 or both 1).";
+"gate.longDesc.nand" = "Negation AND (NAND) — gives 0 only if all inputs are 1; otherwise 1.";
+"gate.longDesc.nor" = "Negation OR (NOR) — gives 1 only if all inputs are 0; otherwise 0.";
+"gate.longDesc.a_and_not_b" = "A AND NOT B — outputs 1 only if A=1 and B=0.";
+"gate.longDesc.not_a_and_b" = "NOT A AND B — outputs 1 only if A=0 and B=1.";
+"gate.longDesc.impl_ab" = "Implication A→B — logical implication. False only if A=1 and B=0.";
+"gate.longDesc.impl_ba" = "Implication B→A — logical implication. False only if B=1 and A=0.";
+"gate.longDesc.proj_a" = "Projection A — simply passes the value of input A to the output.";
+"gate.longDesc.proj_b" = "Projection B — simply passes the value of input B to the output.";
+"gate.longDesc.const0" = "Constant 0 (FALSE) — always outputs 0 regardless of any conditions.";
+"gate.longDesc.const1" = "Constant 1 (TRUE) — always outputs 1 regardless of any conditions.";
+"gate.longDesc.button" = "Button — a mechanical element for momentary circuit closure. Contacts close when pressed allowing current flow (signal 1), open when released (signal 0). Used for temporary device activation. Visualized in red color when pressed.";
+"gate.longDesc.switch" = "Switch — a mechanical element for fixed circuit closure/opening. Maintains its position (ON/OFF) until next toggle. When on, passes signal; when off, blocks it. Used for permanent power control.";
+"gate.longDesc.led" = "LED (Light-Emitting Diode) — a semiconductor device that emits light when electric current passes through it. Glows green when logic 1 is applied, remains dark at 0. Has low power consumption and used as active state indicator.";
+"gate.longDesc.bulb" = "Light Bulb — a classic light source based on tungsten filament heating. Glows yellow-orange when voltage is applied, creates characteristic glow around it. Visual indicator of voltage presence in circuit with realistic glow effect.";
+"gate.longDesc.relay" = "Relay — an electromagnetic device for circuit switching. Consists of a control coil (two contacts: + and -) and switching contacts. When voltage is applied to the coil, a magnetic field is created that switches the contacts:\n• COM (common) — connected to the signal source\n• NO (normally open) — closes when the coil is activated\n• NC (normally closed) — opens when the coil is activated\nUsed to control high-power circuits with weak signals, for protection and switching between different sources.";
+"gate.longDesc.buzzer" = "Buzzer — an electroacoustic device for sound signaling. Activates when voltage is applied, emits characteristic sound. Red indicator in center shows activity, expanding waves visualize sound propagation.";
+"gate.longDesc.resistor" = "Resistor — a passive electronic component limiting current in circuit. Has color bands (orange, blue, red) for value designation. Converts electrical energy to heat. Passes signal unchanged, but in reality reduces voltage.";
+"gate.longDesc.capacitor" = "Capacitor — a passive electronic component of two conducting plates separated by dielectric. Capable of storing and releasing electric charge. Used for filtering, voltage ripple smoothing and temporary energy storage. Passes signal through.";
+"gate.longDesc.battery" = "Battery — a power source providing constant voltage output. Always outputs logical 1 (active signal). Has two pins: positive (+) and negative/ground (-). Used to power circuits and provide reference voltages in logical circuits.";
+"gate.longDesc.display8bit" = "8-bit Display — visualizes an 8-bit binary number as a decimal value (0-255). Inputs: B0-B7 for bits (B0 is least significant), + and - for power supply. Requires both + and - inputs to be connected (logic 1 for +, logic 0 for -). Calculates value as: B0×1 + B1×2 + B2×4 + ... + B7×128. Perfect for displaying counter values, arithmetic results, or any 8-bit data.";
+"gate.longDesc.bjt_npn" = "BJT NPN Transistor — a three-terminal bipolar transistor for signal amplification and switching. Pins: Base (B) - control input, Collector (C) - input signal, Emitter (E) - output. When base receives signal 1, transistor conducts and passes signal from collector to emitter.";
+"gate.longDesc.bjt_pnp" = "BJT PNP Transistor — a three-terminal bipolar transistor with inverted logic. Pins: Base (B) - control input, Collector (C) - input signal, Emitter (E) - output. Conducts when base receives signal 0 (inverted control). Used for switching and amplification in complementary circuits.";
+"gate.longDesc.mosfet_n" = "MOSFET N-channel — a field-effect transistor for fast switching and amplification. Pins: Gate (G) - control input, Drain (D) - input signal, Source (S) - output. Conducts when gate receives signal 1. Offers high input impedance and fast switching speed.";
+"gate.longDesc.mosfet_p" = "MOSFET P-channel — a field-effect transistor with inverted control logic. Pins: Gate (G) - control input, Drain (D) - input signal, Source (S) - output. Conducts when gate receives signal 0 (inverted control). Used for complementary CMOS logic circuits.";
+
+/* Inspector */
+"inspector.title" = "Inspector";
+"inspector.gateType" = "Gate Type";
+"inspector.labelSuffix" = "Label Suffix";
+"inspector.labelSuffix.placeholder" = "Enter suffix";
+"inspector.position" = "Position";
+"inspector.componentValue" = "Component Value";
+"inspector.componentValue.resistor" = "Resistance (Ω, k, M)";
+"inspector.componentValue.capacitor" = "Capacitance (F, µF, nF, pF)";
+"inspector.componentValue.battery" = "Voltage (V)";
+"inspector.componentValue.transistor" = "Model (e.g. 2N2222)";
+"inspector.inputs" = "Inputs";
+"inspector.outputs" = "Outputs";
+"inspector.description" = "Description";
+"inspector.noDescription" = "No description available";
+"inspector.noSelection" = "No Selection";
+"inspector.noSelectionHint" = "Select a gate to view properties";
+"inspector.multipleSelection" = "Multiple gates selected";
+"inspector.multipleSelectionHint" = "Select a single gate to edit";
+"inspector.pinCount" = "Pin Count";
+"inspector.pinValue" = "Value";
+"inspector.gateProperties" = "Gate Properties";
+"inspector.truthTable" = "Truth Table";
+"inspector.inputValue" = "Input Value";
+"inspector.valueTrue" = "True";
+"inspector.valueFalse" = "False";
+"inspector.deleteGate" = "Delete Gate";
+
+/* ContentView */
+"contentview.tab.canvas" = "Canvas";
+"contentview.tab.gates" = "Gates";
+"contentview.tab.inspector" = "Inspector";
+
+/* Example Schemes */
+"example.halfAdder.name" = "Half Adder";
+"example.halfAdder.desc" = "Half adder — adds two bits, outputs sum and carry";
+"example.halfAdder.category" = "Arithmetic";
+
+"example.fullAdder.name" = "Full Adder";
+"example.fullAdder.desc" = "Full adder — adds three bits (two operands + carry)";
+"example.fullAdder.category" = "Arithmetic";
+
+"example.srLatch.name" = "SR Latch";
+"example.srLatch.desc" = "SR latch using NOR gates — basic memory with feedback";
+"example.srLatch.category" = "Cyclic Circuits";
+
+"example.dFlipFlop.name" = "D Flip-Flop";
+"example.dFlipFlop.desc" = "D flip-flop using NAND gates — synchronous memory, captures D value on CLK edge";
+"example.dFlipFlop.category" = "Cyclic Circuits";
+
+"example.ringOscillator.name" = "Ring Oscillator";
+"example.ringOscillator.desc" = "Oscillator with three inverters — self-oscillating system, creates periodic signal through feedback";
+"example.ringOscillator.category" = "Cyclic Circuits";
+
+"example.clockBlinker.name" = "Blinking LED";
+"example.clockBlinker.desc" = "LED blinks automatically using CLOCK generator. LED turns on and off every second.";
+"example.clockBlinker.category" = "Cyclic Circuits";
+
+"example.srLatchLED.name" = "SR Latch with LEDs";
+"example.srLatchLED.desc" = "SR latch with LED visualization. Press S to set, R to reset. LEDs show Q and Q' states.";
+"example.srLatchLED.category" = "Cyclic Circuits";
+
+"example.relayLatch.name" = "Relay Latch";
+"example.relayLatch.desc" = "Self-holding relay with feedback. Press Set — bulb turns on and stays on. NO contact holds the coil energized.";
+"example.relayLatch.category" = "Cyclic Circuits";
+
+"example.relaySwitch.name" = "Relay Switch";
+"example.relaySwitch.desc" = "Relay switches between two LEDs. When released — red (NC), when pressed — green (NO). Demonstrates switching contacts.";
+"example.relaySwitch.category" = "Physical Components";
+
+"example.andFromNand.name" = "AND from NAND";
+"example.andFromNand.desc" = "AND gate implementation using NAND — demonstrates NAND universality";
+"example.andFromNand.category" = "Logic";
+
+"example.xorFromBasic.name" = "XOR from Basic Gates";
+"example.xorFromBasic.desc" = "XOR from AND, OR and NOT — shows how complex gates are built from simple ones";
+"example.xorFromBasic.category" = "Logic";
+
+"example.multiplexer.name" = "2:1 Multiplexer";
+"example.multiplexer.desc" = "2:1 Multiplexer — selects one of two inputs based on selector";
+"example.multiplexer.category" = "Data Routing";
+
+/* Physical Component Examples */
+"example.simpleLED.name" = "Simple LED Circuit";
+"example.simpleLED.desc" = "Basic circuit with a switch and LED. Turn the switch on to light up the LED.";
+"example.simpleLED.category" = "Physical Components";
+
+"example.buttonLED.name" = "Push Button LED";
+"example.buttonLED.desc" = "Press both buttons simultaneously to light the LED. Demonstrates AND logic with physical components.";
+"example.buttonLED.category" = "Physical Components";
+
+"example.relay.name" = "Relay Circuit";
+"example.relay.desc" = "Control a high-power bulb with a small switch using a relay. The relay acts as an electromagnetic switch.";
+"example.relay.category" = "Physical Components";
+
+"example.buzzer.name" = "Buzzer Alarm";
+"example.buzzer.desc" = "Simple alarm system. Press any button to activate the buzzer and LED. Uses OR gate logic.";
+"example.buzzer.category" = "Physical Components";
+
+"example.traffic.name" = "Traffic Light Controller";
+"example.traffic.desc" = "Simple traffic light logic. Different button combinations produce different light signals: Red (both off), Yellow (one on), Green (both on).";
+"example.traffic.category" = "Physical Components";
+
+"example.binaryCalculator.name" = "4-Bit Calculator";
+"example.binaryCalculator.desc" = "Full 4-bit binary calculator. Adds two 4-bit numbers (A0-A3 + B0-B3) using a chain of full adders. Result (0-31) displayed on 8-bit display with seven-segment indicators.";
+"example.binaryCalculator.category" = "Arithmetic Circuits";
+
+"example.blinkingLED.name" = "Blinking LED";
+"example.blinkingLED.desc" = "LED that blinks automatically using a clock generator. The LED turns on and off every second.";
+"example.blinkingLED.category" = "Clock Circuits";
+
+"example.clockBuzzer.name" = "Repeating Alarm";
+"example.clockBuzzer.desc" = "Clock-driven alarm with buzzer and LED. Creates a periodic beeping sound and blinking light every second.";
+"example.clockBuzzer.category" = "Clock Circuits";
+
+/* Gate Instance Descriptions */
+"gateInstance.inputA" = "Input A";
+"gateInstance.inputB" = "Input B";
+"gateInstance.inputCin" = "Cin";
+"gateInstance.inputD0" = "D0";
+"gateInstance.inputD1" = "D1";
+"gateInstance.inputSelect" = "Select";
+"gateInstance.inputS" = "S (Set)";
+"gateInstance.inputR" = "R (Reset)";
+"gateInstance.inputD" = "D (Data)";
+"gateInstance.inputClk" = "CLK (Clock)";
+"gateInstance.outputSum" = "Sum";
+"gateInstance.outputCarry" = "Carry";
+"gateInstance.outputCout" = "Cout";
+"gateInstance.outputQ" = "Q";
+"gateInstance.outputQNot" = "Q'";
+"gateInstance.outputOut" = "Out";
+"gateInstance.outputOutput" = "Output";
+"gateInstance.outputXor" = "A XOR B";
+"gateInstance.outputOscillator" = "Oscillator";
+
+/* Panel Titles */
+"panel.save.title" = "Save Workspace";
+"panel.export.title" = "Export Circuit as JSON";
+"panel.export.message" = "Choose where to save your circuit";
+"panel.exportPNG.title" = "Export Circuit as PNG";
+"panel.exportPNG.message" = "Choose where to save your circuit image";
+
+/* Common */
+"common.cancel" = "Cancel";
+"common.ok" = "OK";
+"common.save" = "Save";
+"common.load" = "Load";
+"common.delete" = "Delete";
+"common.close" = "Close";
+
+/* Menu Commands */
+"menu.file.new" = "New Document";
+"menu.file.open" = "Open...";
+"menu.file.save" = "Save";
+"menu.file.saveAs" = "Save As...";
+"menu.edit.undo" = "Undo";
+"menu.edit.redo" = "Redo";
+"menu.edit.cut" = "Cut";
+"menu.edit.copy" = "Copy";
+"menu.edit.paste" = "Paste";
+"menu.edit.delete" = "Delete Selected";
+"menu.edit.selectAll" = "Select All Gates";
+"menu.edit.deselectAll" = "Deselect All";
+"menu.view" = "View";
+"menu.view.zoomIn" = "Zoom In";
+"menu.view.zoomOut" = "Zoom Out";
+"menu.view.zoomReset" = "Reset Zoom";
+"menu.view.toggleSidebar" = "Toggle Sidebar";
+"menu.view.toggleInspector" = "Toggle Inspector";
+"menu.circuit" = "Circuit";
+"menu.circuit.simulate" = "Run Simulation";
+"menu.circuit.export.json" = "Export as JSON...";
+"menu.circuit.export.png" = "Export as PNG...";
+"menu.help" = "Help";
+"startscreen.app.name" = "Bools";
+"startscreen.app.version" = "v2.1";
+"startscreen.description.title" = "Visual Logic Circuit Editor";
+"startscreen.description.detail" = "Create and test logic circuits with an intuitive interface. Support for all major logic gates and operations.";
+"startscreen.feature.gates.title" = "16 Gate Types";
+"startscreen.feature.gates.description" = "AND, OR, NOT, XOR, NAND, NOR and more";
+"startscreen.feature.wires.title" = "Visual Connections";
+"startscreen.feature.wires.description" = "Connect elements with wires";
+"startscreen.feature.simulation.title" = "Real-time Simulation";
+"startscreen.feature.simulation.description" = "Instant circuit verification";
+"startscreen.feature.save.title" = "Project Saving";
+"startscreen.feature.save.description" = "JSON format for sharing circuits";
+"startscreen.button.new" = "Create New Circuit";
+"startscreen.button.open" = "Open Circuit...";
+"startscreen.recent.title" = "Recent Circuits";
+"startscreen.recent.clear" = "Clear";
+"startscreen.recent.empty.title" = "No Recent Files";
+"startscreen.recent.empty.description" = "Opened circuits will appear here";
+"startscreen.recent.remove" = "Remove from list";
+
+"about.version" = "Version 2.1";
+"about.description.title" = "Visual Logic Circuit Editor";
+"about.description.detail" = "Create and simulate boolean circuits";
+"about.developer.title" = "Developer";
+"about.developer.name" = "Mishkevich Stanislav";
+"about.year" = "2025";
+"about.ok" = "OK";
+
+/* Close Confirmation */
+"close.confirm.title" = "Save Changes?";
+"close.confirm.message" = "Your circuit has unsaved changes.";
+"close.confirm.save" = "Save";
+"close.confirm.discard" = "Don't Save";
+"close.confirm.cancel" = "Cancel";
+
+/* Settings */
+"settings.title" = "Settings";
+"settings.section.grid" = "Grid";
+"settings.section.general" = "General";
+"settings.grid.show" = "Show Grid";
+"settings.grid.snap" = "Snap to Grid";
+"settings.grid.size" = "Grid Size";
+"settings.general.autosave" = "Auto-save";
+"settings.general.theme" = "Theme";
+"settings.theme.system" = "System";
+"settings.theme.light" = "Light";
+"settings.theme.dark" = "Dark";
+"settings.close" = "Close";
+"menu.settings" = "Settings...";
+"settings.section.sound" = "Sound";
+"settings.sound.buzzer" = "Buzzer Sound";
+"settings.sound.type" = "Sound Type";
+"settings.sound.beep" = "Beep";
+"settings.sound.alarm" = "Alarm";
+"settings.sound.tone" = "Tone";
+
+/* Help */
+"help.section.gettingStarted" = "Getting Started";
+"help.section.components" = "Components";
+"help.section.advanced" = "Advanced";
+"help.quickStart" = "Quick Start";
+"help.basics" = "Basics";
+"help.interface" = "Interface";
+"help.logicGates" = "Logic Gates";
+"help.physicalComponents" = "Physical Components";
+"help.transistors" = "Transistors";
+"help.circuits" = "Building Circuits";
+"help.simulation" = "Simulation";
+"help.examples" = "Examples";
+
+"help.quickStart.title" = "Quick Start Guide";
+"help.quickStart.content" = "Welcome to Bools! This guide will help you create your first logic circuit in just 4 steps.";
+"help.step1" = "Create Gates";
+"help.step1.desc" = "Drag logic gates from the sidebar onto the canvas. Choose from AND, OR, NOT, and many more.";
+"help.step2" = "Connect Wires";
+"help.step2.desc" = "Click and drag from an output pin to an input pin to create a connection.";
+"help.step3" = "Set Inputs";
+"help.step3.desc" = "Toggle input gates to set signal values. The circuit updates in real-time.";
+"help.step4" = "View Results";
+"help.step4.desc" = "Watch the signals flow through your circuit. Output gates show the result.";
+
+"help.basics.title" = "Understanding Logic Gates";
+"help.basics.content" = "Logic gates are the building blocks of digital circuits. Each gate takes one or more inputs and produces an output based on a specific logical operation.\n\nDigital signals can be either 0 (false/low) or 1 (true/high). In Bools:\n• Green light = 1 (true)\n• Grey/dim = 0 (false)\n\nGates process these signals according to their logic rules.";
+
+"help.interface.title" = "User Interface";
+"help.interface.content" = "The interface consists of three main areas:\n\n• Toolbar: Quick access buttons for common operations\n• Sidebar: Gate palette for dragging gates onto the canvas\n• Canvas: Main work area where you design circuits\n• Inspector: Shows properties of selected gates\n\nYou can toggle the sidebar and inspector with keyboard shortcuts ⌘1 and ⌘2.";
+
+"help.logicGates.title" = "Logic Gates Reference";
+"help.logicGates.content" = "Bools includes 16 different logic gate types:\n\nBasic Gates: AND, OR, NOT\nAdvanced: XOR, NAND, NOR, XNOR\nSpecial: Implication gates, projection gates\nInput/Output: INPUT and OUTPUT gates for setting and reading signals\nConstants: Always 0 or Always 1\n\nEach gate has a specific truth table that defines its behavior.";
+
+"help.physicalComponents.title" = "Physical Components";
+"help.physicalComponents.content" = "Beyond pure logic gates, Bools includes realistic physical components:\n\n• Button: Momentary switch - active only when pressed\n• Switch: Toggle switch - maintains state until flipped\n• LED: Light-emitting diode - glows green when active\n• Bulb: Incandescent light - glows yellow when powered\n• Relay: Electromagnetic switch with COM, NO, NC contacts\n• Buzzer: Emits sound when activated\n• Battery: Power source\n• Resistor & Capacitor: Passive components\n\nThese components let you design practical circuits.";
+
+"help.transistors.title" = "Transistors";
+"help.transistors.content" = "Transistors are active components that can amplify or switch signals:\n\n• BJT (Bipolar Junction Transistor):\n  - NPN: Conducts when base is high\n  - PNP: Conducts when base is low\n\n• MOSFET (Metal-Oxide-Semiconductor):\n  - N-channel: Conducts when gate is high\n  - P-channel: Conducts when gate is low\n\nTransistors are commonly used in amplifier circuits and logic circuit implementations.";
+
+"help.circuits.title" = "Building Circuits";
+"help.circuits.content" = "To create a circuit:\n\n1. Add gates from the sidebar\n2. Arrange them logically on the canvas\n3. Connect outputs to inputs with wires\n4. Set input values to test\n5. Observe the signal flow\n\nTips:\n• Use INPUT gates to manually set test values\n• Use OUTPUT gates to display results\n• Organize gates left-to-right for clarity\n• Group related gates together\n• Use the inspector to rename gates for documentation";
+
+"help.simulation.title" = "Real-time Simulation";
+"help.simulation.content" = "Bools simulates your circuit in real-time as you modify it.\n\nThe simulation engine:\n• Calculates all gate outputs based on inputs\n• Handles complex circuits with loops\n• Updates instantly when you change inputs\n• Shows signal values on connecting wires\n• Detects and handles circular dependencies\n\nWatch the green and grey indicator lights to see signal flow through your circuit.";
+
+"help.examples.title" = "Learning Examples";
+"help.examples.content" = "Bools includes example circuits to help you learn:\n\n• Half Adder: Add two binary numbers\n• Full Adder: Three-bit addition\n• SR Latch: Basic memory circuit\n• D Flip-Flop: Synchronized memory\n• Ring Oscillator: Self-oscillating circuit\n• Relay circuits: Physical component examples\n• Traffic Light Controller: Multi-output logic\n\nLoad examples from the toolbar or try building your own variations!";
+
+/* New components - Flip-Flops */
+"gate.d_flipflop" = "D Flip-Flop";
+"gate.t_flipflop" = "T Flip-Flop";
+"gate.jk_flipflop" = "JK Flip-Flop";
+"gate.sr_latch" = "SR Latch";
+
+"gate.desc.d_flipflop" = "D Flip-Flop - stores value on CLK edge";
+"gate.desc.t_flipflop" = "T Flip-Flop - toggles on CLK edge";
+"gate.desc.jk_flipflop" = "JK Flip-Flop - universal flip-flop";
+"gate.desc.sr_latch" = "SR Latch - basic memory circuit";
+
+/* Multiplexers */
+"gate.mux_2to1" = "MUX 2:1";
+"gate.mux_4to1" = "MUX 4:1";
+"gate.demux_1to2" = "DEMUX 1:2";
+"gate.demux_1to4" = "DEMUX 1:4";
+
+"gate.desc.mux_2to1" = "Multiplexer 2:1 - selects 1 of 2 inputs";
+"gate.desc.mux_4to1" = "Multiplexer 4:1 - selects 1 of 4 inputs";
+"gate.desc.demux_1to2" = "Demultiplexer 1:2 - routes to 1 of 2 outputs";
+"gate.desc.demux_1to4" = "Demultiplexer 1:4 - routes to 1 of 4 outputs";
+
+/* Counters & Registers */
+"gate.counter_4bit" = "4-bit Counter";
+"gate.register_4bit" = "4-bit Register";
+
+"gate.desc.counter_4bit" = "4-bit counter - counts pulses";
+"gate.desc.register_4bit" = "4-bit register - stores 4 bits";
+
+/* Adders */
+"gate.half_adder" = "Half Adder";
+"gate.full_adder" = "Full Adder";
+"gate.adder_4bit" = "4-bit Adder";
+
+"gate.desc.half_adder" = "Half Adder - adds 2 bits";
+"gate.desc.full_adder" = "Full Adder - adds 3 bits";
+"gate.desc.adder_4bit" = "4-bit Adder - adds 4-bit numbers";
+
+/* Decoders & Encoders */
+"gate.decoder_2to4" = "2:4 Decoder";
+"gate.decoder_3to8" = "3:8 Decoder";
+"gate.encoder_4to2" = "4:2 Encoder";
+
+"gate.desc.decoder_2to4" = "2:4 Decoder - converts 2 bits to 4 lines";
+"gate.desc.decoder_3to8" = "3:8 Decoder - converts 3 bits to 8 lines";
+"gate.desc.encoder_4to2" = "4:2 Encoder - converts 4 lines to 2 bits";
+
+/* Comparators */
+"gate.comparator_1bit" = "1-bit Comparator";
+"gate.comparator_4bit" = "4-bit Comparator";
+
+"gate.desc.comparator_1bit" = "1-bit Comparator - compares A and B";
+"gate.desc.comparator_4bit" = "4-bit Comparator - compares 4-bit numbers";
+
+/* Memory */
+"gate.ram_4x4" = "RAM 4×4";
+"gate.rom_4x4" = "ROM 4×4";
+
+"gate.desc.ram_4x4" = "RAM 4×4 - 4 words × 4 bits memory";
+"gate.desc.rom_4x4" = "ROM 4×4 - 4 words × 4 bits ROM";
+
+/* Timing */
+"gate.clock" = "Clock";
+"gate.desc.clock" = "Clock generator - produces periodic pulses";
+
+/* Bus */
+"gate.splitter_4bit" = "4-bit Splitter";
+"gate.combiner_4bit" = "4-bit Combiner";
+
+"gate.desc.splitter_4bit" = "4-bit bus splitter";
+"gate.desc.combiner_4bit" = "4-bit bus combiner";
+
+/* New Example Schemes with Logisim Components */
+
+/* D Flip-Flop Counter */
+"example.dFlipFlopCounter.name" = "D Flip-Flop Counter";
+"example.dFlipFlopCounter.desc" = "2-bit counter using D flip-flops. Each flip-flop stores one bit and toggles on clock edge.";
+"example.dFlipFlopCounter.category" = "Flip-Flops & Latches";
+
+/* T Flip-Flop Toggle */
+"example.tFlipFlopToggle.name" = "T Flip-Flop Toggle";
+"example.tFlipFlopToggle.desc" = "Toggle flip-flop: each button press toggles the output state. T input is always high.";
+"example.tFlipFlopToggle.category" = "Flip-Flops & Latches";
+
+/* JK Flip-Flop */
+"example.jkFlipFlop.name" = "JK Flip-Flop";
+"example.jkFlipFlop.desc" = "JK flip-flop demonstration: J=1,K=0 sets; J=0,K=1 resets; J=1,K=1 toggles on clock edge.";
+"example.jkFlipFlop.category" = "Flip-Flops & Latches";
+
+/* 4-to-1 Multiplexer */
+"example.mux4to1.name" = "4-to-1 Multiplexer";
+"example.mux4to1.desc" = "Data selector: selects one of 4 inputs based on 2 select lines (S1S0: 00→D0, 01→D1, 10→D2, 11→D3).";
+"example.mux4to1.category" = "Multiplexers & Demultiplexers";
+
+/* 1-to-4 Demultiplexer */
+"example.demux1to4.name" = "1-to-4 Demultiplexer";
+"example.demux1to4.desc" = "Data distributor: routes input to one of 4 outputs based on 2 select lines (S1S0: 00→OUT0, 01→OUT1, 10→OUT2, 11→OUT3).";
+"example.demux1to4.category" = "Multiplexers & Demultiplexers";
+
+/* 4-Bit Counter */
+"example.counter4bit.name" = "4-Bit Counter";
+"example.counter4bit.desc" = "4-bit binary counter: counts from 0 to 15 on each clock pulse. Reset button clears to 0.";
+"example.counter4bit.category" = "Counters & Registers";
+
+/* 4-Bit Register */
+"example.register4bit.name" = "4-Bit Register";
+"example.register4bit.desc" = "4-bit data register: stores 4-bit value when LOAD is high on clock edge. Outputs retain value until new load.";
+"example.register4bit.category" = "Counters & Registers";
+
+/* 3-to-8 Decoder */
+"example.decoder3to8.name" = "3-to-8 Decoder";
+"example.decoder3to8.desc" = "Binary decoder: converts 3-bit binary input (0-7) to one-hot 8-bit output. Only one LED lights at a time.";
+"example.decoder3to8.category" = "Decoders & Encoders";
+
+/* 4-Bit Comparator */
+"example.comparator4bit.name" = "4-Bit Comparator";
+"example.comparator4bit.desc" = "Compares two 4-bit numbers A and B. Shows: A>B, A=B, or A<B.";
+"example.comparator4bit.category" = "Comparators";
+
+/* Transistor Switch */
+"example.transistorSwitch.name" = "Transistor Switch";
+"example.transistorSwitch.desc" = "NPN transistor as a switch: pressing button allows current to flow from collector to emitter, lighting the LED.";
+"example.transistorSwitch.category" = "Physical Components";
